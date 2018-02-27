@@ -11,9 +11,12 @@ django = "*"
 gunicorn = "*"
 django-crispy-forms = "*"
 reverse = "*"
+whitenoise = "*"
 
 
 [dev-packages]
+
+
 
 [requires]
 
