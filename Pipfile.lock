@@ -1,24 +1,24 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "095062a3630e5671f249919d81052197666681f7295df900dbab2f75adb2dcee"
+            "sha256": "6d3c5bb16086cb2c4ca3b7df57b58742b9fca27110a9ecd227fae0324722e2d2"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
-            "implementation_version": "3.6.3",
+            "implementation_version": "3.6.4",
             "os_name": "nt",
             "platform_machine": "AMD64",
             "platform_python_implementation": "CPython",
             "platform_release": "8.1",
             "platform_system": "Windows",
             "platform_version": "6.3.9600",
-            "python_full_version": "3.6.3",
+            "python_full_version": "3.6.4",
             "python_version": "3.6",
             "sys_platform": "win32"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.6"
+            "python_version": "3.6.4"
         },
         "sources": [
             {
