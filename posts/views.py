@@ -20,10 +20,11 @@ class PostUpdateView(LoginRequiredMixin, UpdateView):
     template_name = 'post_edit.html'
     login_url = 'login'
     
-class PostDeleteView(DeleteView):
+class PostDeleteView(LoginRequiredMixin, DeleteView):
     model = models.Post 
     template_name = 'post_delete.html'
     success_url = reverse_lazy('post_list')
+    login_url = 'login'
     
 class PostCreateView(LoginRequiredMixin,CreateView):
     model = models.Post 
